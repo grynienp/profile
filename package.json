@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
+    "copyfiles": "^1.2.0",
     "gh-pages": "^0.12.0",
     "react-scripts": "0.9.0"
   },
@@ -13,6 +14,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "postbuild": "copyfiles CNAME build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
