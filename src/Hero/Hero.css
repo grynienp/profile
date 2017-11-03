@@ -1,7 +1,7 @@
 div.centeredimage {
-    max-width: 128px;
-    /* position: absolute; */
+    max-width: 256px;
     left: 0;
     right: 0;
     margin: auto;
+    margin-bottom: 16px;
   }

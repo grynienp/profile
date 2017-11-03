@@ -1,27 +1,16 @@
 import React, { Component } from 'react';
 import './Hero.css'
+import pawel from '../pawel.svg';
 
 class Hero extends Component {
   render() {
     return (
       <section className="hero is-fullheight is-info is-bold">
         <div className="hero-body">
-
           <div className="container has-text-centered">
-
-            <div className="columns">
-              <div className="column is-6 is-offset-3">
-
                 <div className="centeredimage">
-                  <div className="image is-128x128">
-                    <img src="https://bulma.io/images/placeholders/256x256.png" />
-                  </div>
-
+                    <img src={pawel} />
                 </div>
-
-              </div>
-
-            </div>
 
             <div className="columns">
               <div className="column is-8 is-offset-2">
