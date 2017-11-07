@@ -5,3 +5,9 @@ div.centeredimage {
     margin: auto;
     margin-bottom: 16px;
   }
+
+.particles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
